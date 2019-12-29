@@ -6,6 +6,12 @@
    Methane Sensing Char: 0x2A3A
 */
 
+/*
+ * Connections:
+ * Sensor GDN pin to Feather GDN
+ * Sensor VCC pin to Feather VBus
+ * Sensor DO pin to Feather A2
+ */
 // Power Reduction: https://github.com/adafruit/Adafruit_nRF52_Arduino/issues/165
 // Serial seems to increase consumption by 500uA https://github.com/adafruit/Adafruit_nRF52_Arduino/issues/51#issuecomment-368289198
 #define DEBUG
